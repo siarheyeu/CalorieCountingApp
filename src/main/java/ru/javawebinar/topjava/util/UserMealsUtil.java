@@ -7,6 +7,7 @@ import java.time.LocalDateTime;
 import java.time.LocalTime;
 import java.time.Month;
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.List;
 
 public class UserMealsUtil {
@@ -29,6 +30,10 @@ public class UserMealsUtil {
 
     public static List<UserMealWithExcess> filteredByCycles(List<UserMeal> meals, LocalTime startTime, LocalTime endTime, int caloriesPerDay) {
         // TODO return filtered list with excess. Implement by cycles
+        HashMap <LocalDateTime, Integer> sumCaloriesPerDay = new HashMap<>();
+
+
+
         return null;
     }
 
